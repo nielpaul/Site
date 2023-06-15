@@ -6,6 +6,8 @@ import { userRouter } from './routes/auth.js';
 
 const env = dotenv.config()
 
+const cors = require('cors');
+
 /* CONFIGURATIONS */
 const app = express();
 app.use(express.json());
